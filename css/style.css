@@ -58,7 +58,6 @@ body {
 .logo {
     width: 100px;
     height: 100px;
-    background-image: url('images/Logo_Kazaru_SVG.svg');
     background-size: contain;
     background-repeat: no-repeat;
     animation: spin 100s linear infinite;
@@ -82,7 +81,7 @@ body {
     font-size: 16px;
     margin-top: 0;
     font-weight: 400;
-    font-family: Poppins;
+    font-family: Poppins, serif;
 
 }
 
@@ -98,7 +97,7 @@ body {
 
 }
 
-header__content {
+.header__content {
     position: relative;
 }
 
@@ -133,7 +132,7 @@ header__content {
 
     color: #707070;
 
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     padding-top: 6%;
@@ -153,7 +152,7 @@ header__content {
     height: 42px;
     font-weight: 400;
     font-size: 16px;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     text-transform: uppercase;
 
 }
@@ -163,7 +162,7 @@ header__content {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     margin-bottom: 131px;
@@ -235,17 +234,17 @@ header__content {
 
 .scroll {
     color: #343434;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 26px;
     font-weight: 400;
     position: absolute;
-    padding: 680px 0px 0 50px;
+    padding: 680px 0 0 50px;
     text-transform: uppercase;
 }
 
 .catalog__title {
     font-weight: 500;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 120px;
     margin: 0;
 }
@@ -269,7 +268,7 @@ width: 100%;
 .catalog__text {
     display: flex;
     justify-content: space-between;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 20px;
     font-weight: 400;
     margin: 24px 0 0;
@@ -327,7 +326,7 @@ width: 100%;
 }
 
 .inform__title {
-    font-family: Poppins;
+    font-family: Poppins, serif;
     padding: 77px 50px 0;
     margin: 0;
     text-align: left;
@@ -342,7 +341,7 @@ width: 100%;
 }
 
 .inform__button {
-    font-family: Poppins;
+    font-family: Poppins, serif;
 
     position: absolute;
     gap: 8px;
@@ -375,7 +374,7 @@ width: 100%;
 .footer__inner {
     display: flex;
     margin-top: 67px;
-    padding-right: 0px;
+    padding-right: 0;
 
 
 }
@@ -385,21 +384,22 @@ width: 100%;
     padding: 67px 0 0 50px;
 }
 .footer__list1 {
-    font-family: Poppins;
+    font-family: Poppins, serif;
     display: flex;
 }
 
 .footer__list {
     padding-top: 50px;
     padding-left: 150px;
-    font-family: Poppins;
+    font-family: Poppins, serif;
+
 }
 
 
 .footer__list2 {
     padding-top: 50px;
     padding-left: 150px;
-    font-family: Poppins;
+    font-family: Poppins, serif;
 }
 
 .footer__list-item {
@@ -410,13 +410,11 @@ width: 100%;
     white-space: nowrap;
     font-size: 16px;
     font-weight: 400;
-    padding: 0px;
+    padding: 0;
 }
 
 .footer__list3 {
-    font-family: Poppins;
-    padding-top: 50px;
-    padding-left: 211px;
+    font-family: Poppins, serif;
     font-weight: 500;
     font-size: 22px;
     padding-top: 64px;
@@ -438,7 +436,7 @@ width: 100%;
 }
 
 .transparent-input {
-    font-family: Poppins;
+    font-family: Poppins, serif;
     width: 100%;
     border: none;
     outline: none;
@@ -468,308 +466,27 @@ width: 100%;
 
 .footer__list3-text2 {
     color: #575757;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
-    margin: 0px;
+    margin: 0;
 }
 
 .footer_bottom {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     padding: 80px 0 65px;
 
 }
 
-footer__bottom__container {
-    padding-right: 0px;
+.footer__bottom__container {
+    padding-right: 0;
 }
-
-
-@media (max-width: 800px){
-    .container {
-        max-width: 768px;
-
-    }
-    .container_fon{
-        display: none;
-    }
-    .logo{
-        width: 60px;
-        padding-left:0;
-    }
-    .logo img{
-        width: 56px;
-        height: 56px;
-    }
-
-    .header__top{
-        padding:50px 20px 0;
-    }
-
-    .header__img1 {
-        padding-left: 131px;
-        padding-top: 12%;
-        padding-right: 43px;
-    }
-    .header__img2 {
-        padding-left: 115px;
-        padding-top: 8%;
-        padding-right: 25px;
-    }
-    .title{
-        padding:96% 20px 0;
-        font-size: 16px;
-
-    }
-    .header__button{
-        width: 92%;
-        height: 42px;
-        margin:32px 20px 0;
-    }
-    .bottom{
-        margin-top:53px;
-        font-size: 16px;
-    }
-
-    .bottom__skroll {
-        display: none;
-    }
-    .lines {
-        display: none;
-    }
-    .scroll {
-        display: none;
-    }
-    .catalog__title{
-        font-size: 85px;
-    }
-    .catalog__product{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .catalog__text{
-        padding:0px 42px 0px 69px;
-
-    }
-    .inform__title{
-        padding-left:20px;
-        padding-right: 20px;
-
-    }
-    .inform__button{
-        width: 92%;
-        height: 42px;
-        margin:32px 20px 0;
-    }
-    .inform__img{
-        padding: 126px 20px 0;
-    }
-    .product{
-        width: 100%;
-    }
-    .footer_rectangle1{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .footer__list1 {
-
-        flex-direction: column;
-    }
-    .footer_logo {
-        padding-left: 20px ;
-    }
-    .footer__list {
-        padding-left: 32px;
-
-    }
-    .footer__list2 {
-        padding-left: 32px;
-
-    }
-    .footer__list3 {
-        padding-left: 32px;
-
-    }
-
-
-
-    .container__fon{
-        height: 57%;
-    }
-    .bottom__menu1{
-       padding-left:20px;
-    }
-    .bottom__menu2{
-        white-space: nowrap;
-        gap:20px;
-        padding-right: 0;
-        padding-left: 20px;
-    }
-}
-
-
-
-
-@media (max-width: 400px){
-    .container {
-        max-width: 375px;
-
-    }
-    .logo{
-        width: 60px;
-        padding-left:0;
-    }
-
-    .logo img{
-        width: 60px;
-        height: 60px;
-    }
-
-    .header__top{
-        padding:50px 20px 0;
-    }
-
-    .header__img1 {
-        padding-left: 22px;
-        padding-top: 111px;
-        width: 96%;
-    }
-    .header__img2 {
-        padding-left:4px;
-        padding-top:90px;
-    }
-    .title{
-        padding:142% 20px 0;
-        font-size: 16px;
-        margin: 0;
-    }
-    .header__button{
-        width: 92%;
-        height: 42px;
-        margin:24px 20px 0;
-    }
-    .bottom{
-        margin-top:53px;
-        font-size: 16px;
-    }
-
-    .bottom__skroll {
-        display: none;
-    }
-    .lines {
-        display: none;
-    }
-    .scroll {
-        display: none;
-    }
-    .catalog__product{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-
-    .catalog__text{
-        padding:0px 20px 0px 20px;
-
-    }
-    .inform__title{
-        padding-left:20px;
-        padding-right: 20px;
-        font-size: 32px;
-    }
-    .inform__button{
-        width: 92%;
-        height: 42px;
-        margin:32px 20px 0;
-    }
-    .inform__img{
-        padding: 126px 20px 0;
-    }
-    .footer_rectangle1{
-        margin-left: 20px;
-        margin-right: 20px;
-    }
-    .footer__inner{
-        flex-direction: column;
-    }
-    .footer__list1 {
-
-        flex-direction: column;
-    }
-    .footer_logo {
-        padding-left: 108px ;
-        padding-right: 104px;
-
-    }
-    .footer_logo img{
-        width: 100%;
-        height: 160px;
-    }
-    .footer__list {
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }
-    .footer__list2 {
-        padding-left: 20px;
-
-    }
-    .footer__list3 {
-        padding-left: 20px;
-        padding-right: 20px;
-
-    }
-
-.footer_bottom{
-    white-space: nowrap;
-    font-size: 14px;
-}
-
-    .container__fon{
-        height: 57%;
-    }
-
-    .bottom__menu1{
-       padding-left:20px;
- gap: 41px;
-    }
-    .bottom__menu2{
-        padding-right:20px;
-
-    }
-.bottom{
-    white-space: nowrap;
-}
-.bottom .bottom__menu1{
-    display: none;
-}
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 
@@ -783,7 +500,7 @@ footer__bottom__container {
 }
 .back {
 
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -814,7 +531,7 @@ footer__bottom__container {
 
 
 .product-details h2 {
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 80px;
     font-weight: 500;
     line-height: normal;
@@ -823,7 +540,7 @@ footer__bottom__container {
 
 .cena {
     margin: 0;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 44px;
     font-style: italic;
     font-weight: 400;
@@ -839,7 +556,7 @@ footer__bottom__container {
 
 .selector h4 {
     margin: 0;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
     text-transform: uppercase;
@@ -867,7 +584,7 @@ footer__bottom__container {
     gap: 10px;
     border: 1px solid #FFF;
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
 
@@ -885,7 +602,6 @@ footer__bottom__container {
 
 .quantity__add {
     display: inline-flex;
-    flex-direction: column;
     gap: 24px;
     flex-direction: row;
     border: 1px solid #FFF;
@@ -901,7 +617,7 @@ footer__bottom__container {
 
 
 .count{
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     padding-top:1px
@@ -921,7 +637,7 @@ footer__bottom__container {
     margin-top:40px;
     border: 1px solid #FFF;
     background: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     text-transform: uppercase;
@@ -945,7 +661,7 @@ footer__bottom__container {
     height: 38px;
     color: #0A0A0A; /* Цвет текста кнопки */
 padding:11px 13px;
-    font-family: Oswald;
+    font-family: Oswald, serif;
     font-size: 13px;
     font-weight: 400;
     text-transform: uppercase;
@@ -957,7 +673,7 @@ padding:11px 13px;
 .info-container{
     margin: 130px 50px 0;
     background: #0A0A0A;
-    font-family: Poppins;
+    font-family: Poppins, serif;
 }
 .info-button{
     padding:0 50px ;
@@ -990,8 +706,8 @@ padding:11px 13px;
 }
 .blog1 h5{
     color: #FFF;
-    margin:0px;
-    font-family: Poppins;
+    margin:0;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1001,14 +717,14 @@ padding:11px 13px;
     padding:20px 0 0 50px;
     margin:0;
     color: #3F3F3F;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
 }
 
 .filled-list {
     list-style-type: none; /* Убираем стандартные маркеры */
-    font-family: Poppins;
+    font-family: Poppins, serif;
     color: #3F3F3F;
     font-size: 14px;
     font-weight: 400;
@@ -1026,8 +742,8 @@ padding:11px 13px;
 }
 .blog2 h5{
     color: #FFF;
-    margin:0px;
-    font-family: Poppins;
+    margin:0;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1037,14 +753,14 @@ padding:11px 13px;
 .obzac {
     padding: 20px 50px 0 0;
     color: #3F3F3F;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
 }
 .obzac2 {
     padding: 12px 50px 0 0;
     color: #3F3F3F;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -1054,8 +770,8 @@ padding:11px 13px;
 }
 .blog_2 h5{
     color: #FFF;
-    margin:0px;
-    font-family: Poppins;
+    margin:0;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-style: normal;
     font-weight: 500;
@@ -1065,7 +781,7 @@ padding:11px 13px;
     padding:20px 0 0 50px;
     margin:0;
     color: #3F3F3F;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 14px;
     font-weight: 400;
 }
@@ -1074,7 +790,7 @@ padding:11px 13px;
 .info-container2{
     margin: 130px 50px 0;
     background: #0A0A0A;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     padding-bottom:64px;
 }
 details{
@@ -1082,7 +798,7 @@ details{
 }
 
 .delivery{
-    font-family: Poppins;
+    font-family: Poppins, serif;
 }
 
 .delivery h2 {
@@ -1166,7 +882,7 @@ select:hover {
     margin-bottom: 10px;
     padding: 40px 0 0 75px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 18px;
     font-weight: 300;
     gap: 308px;
@@ -1176,7 +892,7 @@ select:hover {
     margin-bottom: 10px;
     padding: 40px 0 0 75px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 18px;
     font-weight: 300;
 
@@ -1201,14 +917,7 @@ select:hover {
 
 }
 
-.custom-radio input[type="radio"]:checked + .radio-dot {
-background-color: black;
 
-}
-.custom-radio2 input[type="radio"]:checked + .radio-dot {
-    background-color: black;
-
-}
 .visa{
     position: relative;
     padding-left: 8px;
@@ -1244,7 +953,7 @@ background-color: black;
     border: 1px solid #FFF;
     color: #FFF;
     position: absolute;
-    top: 0px;
+    top: 0;
     right: 50px;
     padding: 50px;
     width: 512px;
@@ -1253,7 +962,7 @@ background-color: black;
 }
 .order h1{
     color: #FFF;
-    font-family: Inter;
+    font-family: Inter, serif;
     font-size: 24px;
     font-weight: 400;
     text-transform: uppercase;
@@ -1264,16 +973,14 @@ background-color: black;
     height: 210px;
     display: flex;
     color: #FFF;
-    text-edge: cap;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     gap:24px;
 }
 .order-name{
     color: #FFF;
-    text-edge: cap;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
 }
@@ -1305,7 +1012,7 @@ background-color: black;
 
 .order-name span{
     color: #707070;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
 
@@ -1327,11 +1034,11 @@ background-color: black;
     margin: 40px 0 0 75px;
 }
 .cart{
-    padding: 100px 50px 0px 50px;
+    padding: 100px 50px 0 50px;
 }
 .your-cart{
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 120px;
     font-weight: 500;
     display: flex;
@@ -1348,7 +1055,7 @@ background-color: black;
 .cart-info{
     padding-top:150px;
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 20px;
     font-weight: 500;
     display: flex;
@@ -1391,7 +1098,7 @@ margin-top: 16px;
 
 .cart-product_info{
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 16px;
     font-weight: 400;
     display: flex;
@@ -1431,19 +1138,19 @@ margin-top: 16px;
 
 .shipping {
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
     display: flex;
     align-items: center;
     gap:5px;
-    padding-top: 0px;
+    padding-top: 0;
 }
 
 .returns{
     color: #FFF;
-    font-family: Poppins;
+    font-family: Poppins, serif;
     font-size: 20px;
     font-weight: 500;
     text-transform: uppercase;
@@ -1467,4 +1174,265 @@ padding-top: 40px;
 }
 .cart-info-button h3{
     padding-left: 120px;
+}
+
+
+@media (max-width: 800px){
+    .container {
+        max-width: 768px;
+
+    }
+    .container_fon{
+        display: none;
+    }
+    .logo{
+        width: 60px;
+        padding-left:0;
+    }
+    .logo img{
+        width: 56px;
+        height: 56px;
+    }
+
+    .header__top{
+        padding:50px 20px 0;
+    }
+
+    .header__img1 {
+        padding-left: 131px;
+        padding-top: 12%;
+        padding-right: 43px;
+    }
+    .header__img2 {
+        padding-left: 115px;
+        padding-top: 8%;
+        padding-right: 25px;
+    }
+    .title{
+        padding:96% 20px 0;
+        font-size: 16px;
+
+    }
+    .header__button{
+        width: 92%;
+        height: 42px;
+        margin:32px 20px 0;
+    }
+    .bottom{
+        margin-top:53px;
+        font-size: 16px;
+    }
+
+    .bottom__skroll {
+        display: none;
+    }
+    .lines {
+        display: none;
+    }
+    .scroll {
+        display: none;
+    }
+    .catalog__title{
+        font-size: 85px;
+    }
+    .catalog__product{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .catalog__text{
+        padding:0 42px 0 69px;
+
+    }
+    .inform__title{
+        padding-left:20px;
+        padding-right: 20px;
+
+    }
+    .inform__button{
+        width: 92%;
+        height: 42px;
+        margin:32px 20px 0;
+    }
+    .inform__img{
+        padding: 126px 20px 0;
+    }
+    .product{
+        width: 100%;
+    }
+    .footer_rectangle1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer__list1 {
+
+        flex-direction: column;
+    }
+    .footer_logo {
+        padding-left: 20px ;
+    }
+    .footer__list {
+        padding-left: 32px;
+
+    }
+    .footer__list2 {
+        padding-left: 32px;
+
+    }
+    .footer__list3 {
+        padding-left: 32px;
+
+    }
+
+
+
+    .container__fon{
+        height: 57%;
+    }
+    .bottom__menu1{
+        padding-left:20px;
+    }
+    .bottom__menu2{
+        white-space: nowrap;
+        gap:20px;
+        padding-right: 0;
+        padding-left: 20px;
+    }
+}
+
+
+
+
+@media (max-width: 375px){
+    .container {
+        max-width: 375px;
+
+    }
+    .logo{
+        width: 60px;
+        padding-left:0;
+    }
+
+    .logo img{
+        width: 60px;
+        height: 60px;
+    }
+
+    .header__top{
+        padding:50px 20px 0;
+    }
+
+    .header__img1 {
+        padding-left: 22px;
+        padding-top: 111px;
+        width: 96%;
+    }
+    .header__img2 {
+        padding-left:4px;
+        padding-top:90px;
+    }
+    .title{
+        padding:142% 20px 0;
+        font-size: 16px;
+        margin: 0;
+    }
+    .header__button{
+        width: 92%;
+        height: 42px;
+        margin:24px 20px 0;
+    }
+    .bottom{
+        margin-top:53px;
+        font-size: 16px;
+    }
+
+    .bottom__skroll {
+        display: none;
+    }
+    .lines {
+        display: none;
+    }
+    .scroll {
+        display: none;
+    }
+    .catalog__product{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+
+    .catalog__text{
+        padding:0 20px 0 20px;
+
+    }
+    .inform__title{
+        padding-left:20px;
+        padding-right: 20px;
+        font-size: 32px;
+    }
+    .inform__button{
+        width: 92%;
+        height: 42px;
+        margin:32px 20px 0;
+    }
+    .inform__img{
+        padding: 126px 20px 0;
+    }
+    .footer_rectangle1{
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    .footer__inner{
+        flex-direction: column;
+    }
+    .footer__list1 {
+
+        flex-direction: column;
+    }
+    .footer_logo {
+        padding-left: 108px ;
+        padding-right: 104px;
+
+    }
+    .footer_logo img{
+        width: 100%;
+        height: 160px;
+    }
+    .footer__list {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+    .footer__list2 {
+        padding-left: 20px;
+
+    }
+    .footer__list3 {
+        padding-left: 20px;
+        padding-right: 20px;
+
+    }
+
+    .footer_bottom{
+        white-space: nowrap;
+        font-size: 14px;
+    }
+
+    .container__fon{
+        height: 57%;
+    }
+
+    .bottom__menu1{
+        padding-left:20px;
+        gap: 41px;
+    }
+    .bottom__menu2{
+        padding-right:20px;
+
+    }
+    .bottom{
+        white-space: nowrap;
+    }
+    .bottom .bottom__menu1{
+        display: none;
+    }
 }
