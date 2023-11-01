@@ -526,9 +526,12 @@ width: 100%;
 
 }
 
-.main-image img {
+.main-image-hoodie {
     background: #0A0A0A;
-}
+        width: 624px;
+        height: 790px;
+    }
+
 
 .product-details {
     padding-top: 83px;
@@ -674,6 +677,8 @@ padding:11px 13px;
 }
 .image-button img{
     background: #FFF;
+    width: 10px;
+    height: 10px;
 }
 .info-container{
     margin: 130px 50px 0;
@@ -1337,7 +1342,8 @@ padding-top: 40px;
     width: 167px;
 }
 .main-image-hoodie{
-        width: 541px;
+    width: 541px;
+    height: 658px;
 
 }
 
@@ -1586,7 +1592,7 @@ padding-top: 40px;
         padding-right: 0;
     }
 .add-to-cart{
-    width: 146%;
+    width: 130%;
 }
 
 .info-container{
