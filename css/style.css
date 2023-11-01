@@ -1208,6 +1208,10 @@ padding-top: 40px;
         padding-top: 8%;
         padding-right: 25px;
     }
+    .header__img3{
+        padding-top: 335px;
+
+    }
     .title{
         padding:96% 20px 0;
         font-size: 16px;
@@ -1303,7 +1307,7 @@ padding-top: 40px;
 
 
 
-@media (max-width: 375px){
+@media (max-width: 450px){
     .container {
         max-width: 375px;
 
@@ -1330,6 +1334,10 @@ padding-top: 40px;
     .header__img2 {
         padding-left:4px;
         padding-top:90px;
+    }
+    .header__img3{
+        padding-top: 223px;
+
     }
     .title{
         padding:142% 20px 0;
