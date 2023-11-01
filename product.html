@@ -77,7 +77,13 @@
                         <button class="increment"><img src="images/Icon_Plus.svg"></button>
                     </div>
                     </div>
-                    <button class="add-to-cart">Add to bag</button>
+                    <button class="add-to-cart" onclick="redirectToDelivery()">Add to bag</button>
+
+                    <script>
+                        function redirectToDelivery() {
+                            window.location.href = "delivery.html";
+                        }
+                    </script>
 
                 </div>
             </div>

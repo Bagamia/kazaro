@@ -966,8 +966,7 @@ select:hover {
     top: 0;
     right: 50px;
     padding: 50px;
-    width: 512px;
-    margin-top:54px;
+    margin-top: 354px
 
 }
 .order h1{
@@ -1186,7 +1185,12 @@ padding-top: 40px;
     padding-left: 120px;
 }
 
+.toggle-menu {
+    right: 19px;
+    color:white;
+    display: none;
 
+}
 
 
 
@@ -1350,6 +1354,7 @@ padding-top: 40px;
 
     .main-image{
         padding-left: 207px;
+        padding-right: 0px;
     }
 
 .back{
@@ -1403,6 +1408,59 @@ padding-top: 40px;
         display: none;
     }
 
+
+
+
+
+
+
+
+
+    .delivery h2{
+        padding-left: 20px;
+        font-size: 80px;
+    }
+.order{
+    border: none;
+    padding:0;
+    right: 7px;
+    top: -49px;
+
+}
+
+
+
+    .delivery h4{
+        padding-left: 20px;
+    }
+
+    .delivery h6{
+        padding-left: 51px;
+    }
+
+.home{
+    margin-left: 51px;
+}
+.continue{
+    margin-left: 51px;
+}
+.select{
+    margin-left: 51px;
+}
+.order-price{
+    flex-direction: column-reverse;
+    gap:0;
+}
+    .order-price h5{
+        margin-top: 20px;
+    }
+
+.order-rectangle{
+    width: 280px;
+}
+.total{
+    width: 280px;
+}
 
 }
 
@@ -1570,6 +1628,7 @@ padding-top: 40px;
     }
 .main-image{
     padding-left: 20px;
+    padding-right: 0px;
 }
     .main-image-hoodie {
         width: 335px;
@@ -1632,4 +1691,37 @@ width: 100%;
         display: none;
     }
 
+
+
+
+
+
+
+
+    .toggle-menu {
+        display: block;
+        top: 221px;
+        margin-left: 327px;
+        background-color: #FFFFFF;
+        color: #0A0A0A;
+        width: 60px;
+        height: 43px;
+        text-align: center;
+        line-height: 45px;
+        border-radius: 50%;
+        cursor: pointer;
+    }
+
+    .nav-order{
+        display: none;
+        flex-direction: column;
+
+    }
+    .show-menu {
+        display: block;
+        background-color: #0A0A0A;
+    }
+    .order{
+        background-color: #0A0A0A;
+    }
 }
