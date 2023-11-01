@@ -516,6 +516,11 @@ width: 100%;
 
 }
 
+.thumbnail-images img {
+    background: #0A0A0A;
+    margin-bottom: 20px;
+}
+
 .main-image {
     padding: 34px 34px 0 148px;
 
@@ -685,7 +690,7 @@ padding:11px 13px;
 
 
 .line{
-    width: 1240px;
+    width: 93%;
     height: 1px;
     background: #FFF;
     margin-left: 50px;
@@ -1177,6 +1182,28 @@ padding-top: 40px;
 }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 @media (max-width: 800px){
     .container {
         max-width: 768px;
@@ -1304,10 +1331,76 @@ padding-top: 40px;
 
 
 
-
+.thumbnail-images{
+    margin-left: 20px;
+    height: 205px;
+    width: 167px;
+}
+.main-image-hoodie{
+        width: 541px;
 
 }
 
+.image-container{
+    padding-right: 134px;
+}
+    .main-image{
+        padding-left: 207px;
+    }
+
+.back{
+    display: none;
+
+}
+.product-details{
+    position: absolute;
+}
+
+.product-details1{
+    position: absolute;
+    top: -216px;
+    left: 18px;
+    font-size: 54px;
+    white-space: nowrap;
+}
+.cena{
+    padding-top:0;
+}
+.product-card{
+    padding-top: 222px;
+
+}
+.selector{
+    position: absolute;
+    top: 692px;
+    padding-left: 20px;
+    padding-right: 0;
+}
+.info-container{
+    margin: 399px 20px 40px;
+
+}
+.info-container2{
+    margin: 0 20px 40px;
+
+}
+.line{
+    margin-left: 34px;
+    margin-right: 34px;
+    width: 90%;
+}
+
+    .image-button{
+        width: 40px;
+        right: 135px;
+    }
+
+    .image-button span{
+        display: none;
+    }
+
+
+}
 
 
 
@@ -1447,4 +1540,92 @@ padding-top: 40px;
     .bottom .bottom__menu1{
         display: none;
     }
+
+
+
+    .product-details1{
+        font-size: 45px;
+    }
+
+    .product-details1 h2{
+        font-size: 45px;
+    }
+    .cena{
+        font-size: 32px;
+    }
+
+    .thumbnail-images{
+        flex-direction: row;
+        top: 748px;
+    }
+    .thumbnail-images img{
+        margin-bottom: 0;
+        margin-right: 20px;
+        width: 98px;
+        height: 121px;
+    }
+.main-image{
+    padding-left: 20px;
+}
+    .main-image-hoodie {
+        width: 335px;
+        height: 424px;
+
+    }
+    .product-card {
+        padding-top: 54px;
+    }
+    .product-details1 {
+        top: -103px;
+
+    }
+    .selector {
+        position: absolute;
+        top: 588px;
+        padding-left: 20px;
+        padding-right: 0;
+    }
+.add-to-cart{
+    width: 146%;
+}
+
+.info-container{
+    margin-top:530px;
+}
+
+.line{
+    width: 80%;
+}
+.hidden-info{
+    flex-direction: column;
+}
+.blog1{
+width: 100%;
+}
+.blog2{
+    width: 100%;
+    margin-left: 40px;
+}
+    .blog_2{
+        width: 100%;
+        margin-left: 0;
+    }
+    .info-container{
+        margin-left: 0;
+        margin-right: 0;
+    }
+    .info-container2 {
+        margin-left: 0;
+        margin-right: 0;
+    }
+
+    .image-button{
+        width: 40px;
+        right: 135px;
+    }
+
+    .image-button span{
+        display: none;
+    }
+
 }
