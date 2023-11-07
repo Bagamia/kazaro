@@ -39,12 +39,12 @@
        <div class="cart-product">
            <div class="cart-info">
            <div class="cart-info1">
-              <h4> Product</h4>
-               <h4> Price</h4>
+              <h4 class="product"> Product</h4>
+               <h4 class="price"> Price</h4>
            </div>
            <div class="cart-info2">
-               <h4>Quantity</h4>
-               <h4>Total</h4>
+               <h4 class="Quantity">Quantity</h4>
+               <h4 class="Total">Total</h4>
            </div>
            </div>
 <div class="cart-product">
@@ -66,7 +66,16 @@
                     Size: 48
                 </h4>
             </div>
-                <h4>£20.00 GBP</h4>
+                <h4 class="price2">£20.00 GBP</h4>
+                <div class="cart-button1">
+                    <button>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 12.998H5V10.998H19V12.998Z" fill="white"/>
+                    </svg></button>
+                    <h4>1</h4>
+                    <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
+                        <path d="M19 12.998H13V18.998H11V12.998H5V10.998H11V4.99805H13V10.998H19V12.998Z" fill="white"/>
+                    </svg></button>
+                </div>
             </div>
         </div>
         <div class="cart-product_info2">
@@ -80,48 +89,14 @@
                     <path d="M19 12.998H13V18.998H11V12.998H5V10.998H11V4.99805H13V10.998H19V12.998Z" fill="white"/>
                 </svg></button>
             </div>
-            <h4>£20.00 GBP</h4>
+            <h4 class="price">£20.00 GBP</h4>
         </div>
 
     </div>
 </div>
 <div class="cart-product">
 <div class="cart-rectangle"></div>
-    <div class="cart-product_info">
-        <div class="cart-product_info1">
-<div class="cart-img_rectangle">
-    <img src="images/04%201.png" alt="">
-</div>
-            <div class="cart-product_name">
 
-            <div class="cart-product_name2">
-
-                <h4> Product name</h4>
-                <h4>
-                    Color: Black
-                </h4>
-                <h4>
-                    Size: 48
-                </h4>
-            </div>
-                <h4>£20.00 GBP</h4>
-            </div>
-        </div>
-        <div class="cart-product_info2">
-
-            <div class="cart-button">
-               <button>  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M19 12.998H5V10.998H19V12.998Z" fill="white"/>
-                </svg></button>
-                <h4>1</h4>
-                <button><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none">
-                    <path d="M19 12.998H13V18.998H11V12.998H5V10.998H11V4.99805H13V10.998H19V12.998Z" fill="white"/>
-                </svg></button>
-            </div>
-            <h4>£20.00 GBP</h4>
-        </div>
-
-    </div>
 </div>
            <div class="cart-rectangle"></div>
        </div>
@@ -143,9 +118,14 @@
     </div>
     <div class="cart-info-button">
         <h3>TOTAL: £40.00 GBP</h3>
-        <button class="continue">
+        <button class="continue" id="redirectButton">
             CHECKOUT
         </button>
+        <script>
+            document.getElementById('redirectButton').addEventListener('click', function() {
+                window.location.href = "delivery.html";
+            });
+        </script>
     </div>
 
 </div>
